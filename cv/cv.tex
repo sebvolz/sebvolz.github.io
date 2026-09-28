@@ -1,0 +1,210 @@
+%!TEX TS-program = lualatex
+%-------------------------------------------------------------------------------
+% CV of Sebastian Volz, based on Awesome-CV (https://github.com/posquit0/Awesome-CV)
+% Build with `make cv` from the repository root; the PDF ends up in files/cv.pdf.
+%-------------------------------------------------------------------------------
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Accent color: dark blue-gray instead of the default red
+\definecolor{awesome-slate}{HTML}{2C3E50}
+\colorlet{awesome}{awesome-slate}
+
+% No colored first letters in section titles
+\setbool{acvSectionColorHighlight}{false}
+
+% Re-declare the body font with LuaTeX's standard renderer: with HarfBuzz (the
+% class default) hyphens end up as soft hyphens (U+00AD) in the PDF text layer,
+% which breaks copy & paste and search.
+\setmainfont{Source Sans 3}[
+  Renderer=Node,
+  UprightFont=*,
+  ItalicFont=* Italic,
+  BoldFont=* Bold,
+  BoldItalicFont=* Bold Italic,
+  FontFace={l}{n}{Font=* Light},
+  FontFace={l}{it}{Font=* Light Italic},
+]
+\setsansfont{Source Sans 3}[
+  Renderer=Node,
+  UprightFont=*,
+  ItalicFont=* Italic,
+  BoldFont=* Bold,
+  BoldItalicFont=* Bold Italic,
+  FontFace={l}{n}{Font=* Light},
+  FontFace={l}{it}{Font=* Light Italic},
+]
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{Sebastian}{Volz}
+\position{PhD Student{\enskip\cdotp\enskip}University of Tübingen}
+\address{Maria-von-Linden-Straße 6, Office 10-28/A21, 72076 Tübingen, Germany}
+\email{sebastian.volz@uni-tuebingen.de}
+\homepage{sebvolz.github.io}
+\github{sebvolz}
+\linkedin{sebastian-volz-beechey}
+\orcid{0009-0007-9364-8242}
+
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Sebastian Volz~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+\begin{cventries}
+  \cventry
+    {PhD, Health NLP Lab (supervisor: Harry Scells)}
+    {University of Tübingen}
+    {Tübingen, Germany}
+    {09/2026 -- present}
+    {}
+
+  \cventry
+    {M.Sc. in Computer Science (grade: 1.7)}
+    {University of Tübingen}
+    {Tübingen, Germany}
+    {2022 -- 2026}
+    {
+      \begin{cvitems}
+        \item {Focus on Machine Learning and Artificial Intelligence}
+      \end{cvitems}
+    }
+
+  \cventry
+    {B.Sc. in Cognitive Science (grade: 1.37)}
+    {University of Tübingen}
+    {Tübingen, Germany}
+    {2019 -- 2022}
+    {}
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+
+\begin{cventries}
+  \cventry
+    {Data Engineer}
+    {Bosch eBike}
+    {}
+    {10/2023 -- 09/2026}
+    {
+      \begin{cvitems}
+        \item {Implemented OAuth2-secured extensions for the internal application}
+        \item {Added internal tools to an MCP server}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Student Assistant (HiWi)}
+    {KI-Makerspace}
+    {}
+    {10/2023 -- 09/2026}
+    {
+      \begin{cvitems}
+        \item {Taught courses on microcontrollers}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Intern}
+    {Value AG}
+    {}
+    {09/2022 -- 12/2022}
+    {
+      \begin{cvitems}
+        \item {Implemented neural networks in PyTorch and TensorFlow}
+        \item {Evaluated OCR on unstructured text documents}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Tutor for Computer-Based Statistics}
+    {University of Tübingen}
+    {Tübingen, Germany}
+    {04/2021 -- 10/2021}
+    {
+      \begin{cvitems}
+        \item {Corrected students' homework in R}
+        \item {Answered questions in weekly meetings}
+      \end{cvitems}
+    }
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\cvsection{Honors \& Awards}
+
+\begin{cvhonors}
+  \cvhonor
+    {Runner-Up Award}
+    {14th Symposium on Future Directions in Information Access (FDIA 2026) at ESSIR 2026}
+    {}
+    {07/2026}
+\end{cvhonors}
+
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+
+\begin{cvskills}
+  \cvskill
+    {Programming}
+    {Python (PyTorch, PEFT), R, PostgreSQL}
+
+  \cvskill
+    {Languages}
+    {German, English (both fluent)}
+
+  \cvskill
+    {Interests}
+    {Sports (swimming, surfing, juggling, slacklining), Artificial Intelligence}
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+\begin{cventries}
+  \cventry
+    {Bachelor Thesis: ``Comparing convolutional LSTM architectures in a wave prediction task''}
+    {University of Tübingen}
+    {}
+    {04/2022 -- 08/2022}
+    {
+      \begin{cvitems}
+        \item {Further development of convLSTMs to increase the accuracy of predictions of spatio-temporal dynamic systems (\textit{Python})}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Artificial Intelligence}
+    {Course Project}
+    {}
+    {}
+    {
+      \begin{cvitems}
+        \item {Development of a Diana Chess agent employing the Minimax algorithm and alpha-beta pruning (\textit{Python})}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Linguistics}
+    {Course Project}
+    {}
+    {}
+    {
+      \begin{cvitems}
+        \item {Utilizing semantic vectors to predict the outcome of reaction-time experiments (\textit{R})}
+      \end{cvitems}
+    }
+\end{cventries}
+
+\end{document}
