@@ -15,15 +15,21 @@ Education
 ======
 * **PhD**, University of Tübingen, 09/2026 – present
   * [Health NLP Lab](https://health-nlp.com/), supervised by [Harry Scells](https://scells.me/)
-* **M.Sc. in Computer Science**, University of Tübingen, 2022 – 2026
+* **M.Sc. in Computer Science**, University of Tübingen, 2023 – 2026
+  * Thesis: "Scaling and Extending Parametric Retrieval-Augmented Generation" (08/2026)
   * Focus on Machine Learning and Artificial Intelligence
-* **B.Sc. in Cognitive Science**, University of Tübingen, 2019 – 2022
+* **B.Sc. in Cognitive Science**, University of Tübingen, 2019 – 2023
+  * Thesis: "Comparing convolutional LSTM architectures in a wave prediction task" (08/2022)
+
+Publications
+======
+* **[Health-NLP at the BioASQ 2026 Task B and GutBrainIE Tasks](https://ceur-ws.org/Vol-4283/paper48.pdf)**, CLEF 2026 Working Notes, 2026
 
 Work experience
 ======
 * **Data Engineer**, Bosch eBike, 10/2023 – 09/2026
-  * Implemented OAuth2-secured extensions for the internal application
-  * Added internal tools to an MCP server
+  * Implemented OAuth2-secured extensions
+  * Added tools to an internal MCP server
 
 * **Student Assistant (HiWi)**, KI-Makerspace, 10/2023 – 09/2026
   * Taught courses on microcontrollers
@@ -31,10 +37,6 @@ Work experience
 * **Intern**, Value AG, 09/2022 – 12/2022
   * Implemented neural networks in PyTorch and TensorFlow
   * Evaluated OCR on unstructured text documents
-
-* **Tutor for Computer-Based Statistics**, University of Tübingen, 04/2021 – 10/2021
-  * Corrected students' homework in R
-  * Answered questions in weekly meetings
 
 Awards
 ======
@@ -44,3 +46,4 @@ Skills
 ======
 * **Programming:** Python (PyTorch, PEFT), R, PostgreSQL
 * **Languages:** German, English (both fluent)
+* **Interests:** Gardening, Pumpfoiling, Surfing

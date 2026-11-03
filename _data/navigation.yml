@@ -5,9 +5,8 @@
 # prevent it from being included in the site.
 
 main:
-  # Uncomment once the first paper is in _publications/
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
   - title: "CV"
     url: /cv/

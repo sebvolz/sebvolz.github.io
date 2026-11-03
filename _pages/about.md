@@ -12,4 +12,5 @@ I am a PhD student in the [Health NLP Lab](https://health-nlp.com/) at the Unive
 News
 ======
 
+* **Sep 2026:** Presented our [BioASQ & GutBrainIE working notes](https://ceur-ws.org/Vol-4283/paper48.pdf) at CLEF 2026 in Jena!
 * **Jul 31, 2026:** Honored to receive the Runner-Up Award from the 14th Symposium on Future Directions in Information Access (FDIA 2026) at ESSIR 2026!
