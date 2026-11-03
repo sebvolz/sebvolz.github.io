@@ -227,7 +227,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   publications:
-    output: true
+    output: false # no per-paper pages; titles on /publications/ link straight to the PDF
     permalink: /:collection/:path/
   talks:
     output: true
